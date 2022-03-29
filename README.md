@@ -59,7 +59,7 @@ Training set: [`BSDS500`](https://www2.eecs.berkeley.edu/Research/Projects/CS/vi
 
 Visual comparisons of reconstruction images (original images are drawn from dataset `McM18`):
 
-<div align=center><img src="https://github.com/CompressiveLab/TCS-Net/samples/rgb.png"/></div>  
+<div align=center><img src="https://github.com/CompressiveLab/TCS-Net/blob/main/samples/rgb.png"/></div>  
 
 ## 2. Useage ##  
 **1) Training TCS-Net.**  
