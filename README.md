@@ -62,7 +62,7 @@ Visual comparisons of reconstruction images (original images are drawn from data
 <div align=center><img src="https://github.com/CompressiveLab/TCS-Net/samples/rgb.png"/></div>  
 
 ## 2. Useage ##  
-**1) Training our TCS-Net.**  
+**1) Training TCS-Net.**  
 
 * Put the `BSDS500` and `VOC2012` images into `./dataset/train/`.  
 * e.g., If you want to train TCS-Net at sampling rate `τ = 0.1` with `GPU No.0`, please run the following command. The train set will be automatically packaged and our model will be trained with its default parameters (please make sure you have enough GPU RAM):  
