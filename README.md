@@ -57,7 +57,7 @@ Training set: [`BSDS500`](https://www2.eecs.berkeley.edu/Research/Projects/CS/vi
 
 **4) Performance demonstrates**  
 
-Visual comparisons of reconstruction images (original images are drawn from dataset `McM18`):
+Visual comparisons of reconstruction images (original images are drawn from dataset `LIVE29`):
 
 <div align=center><img src="https://github.com/CompressiveLab/TCS-Net/blob/main/samples/rgb.png"/></div>  
 
