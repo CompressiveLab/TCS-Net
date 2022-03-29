@@ -75,7 +75,7 @@ sh train.sh
 ```
 * The trained models (.pth) will save in the `trained_models` folder.
 
-**2) For testing TCS-Net.**  
+**2) Testing TCS-Net.**  
 * Put the testing folders into `./dataset/test/`.  
 * e.g., if you want to test TCS-Net at sampling rate τ = 0.1 with GPU No.0, please run:  
 ```
