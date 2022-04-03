@@ -62,7 +62,7 @@ Visual comparisons of reconstruction images (original images are drawn from data
 <div align=center><img src="https://github.com/CompressiveLab/TCS-Net/blob/main/samples/rgb.png"/></div>  
 
 ## 2. Useage ##  
-**1) Training TCS-Net.**  
+**1) Re-training TCS-Net.**  
 
 * Put the `BSDS500` and `VOC2012` images into `./dataset/train/`.  
 * e.g., If you want to train TCS-Net at sampling rate `τ = 0.1` with `GPU No.0`, please run the following command. The train set will be automatically packaged and our model will be trained with its default parameters (please make sure you have enough GPU RAM):  
@@ -76,12 +76,14 @@ sh train.sh
 * The trained models (.pth) will save in the `trained_models` folder.
 
 **2) Testing TCS-Net.**  
+* We provide the trained models so that you can put them under `TCS-Net/trained_models/` and use them for testing directly; all trained TCS-Net models can be found in this [GoogleDrive link](https://drive.google.com/drive/folders/15dRG29V51i8rVraz8TkHtev7N3jLkx0U?usp=sharing); Please note that the `folder's names` are the `100 times of sampling rates`, e.g., the folder named `10` includes trained models at `sampling rate = 0.1`.  
+
 * Put the testing folders into `./dataset/test/`.  
 * e.g., if you want to test TCS-Net at sampling rate τ = 0.1 with GPU No.0, please run:  
 ```
 python test.py --rate 0.1 --GPU 0
 ```  
-* After that, the reconstructed images, PSNR and SSIM results will be saved to `./reconstructed_images/`.
+* After that, the reconstructed images, PSNR and SSIM results will be saved to `./reconstructed_images/`.  
 ## End ##  
 
 We appreciate your reading and attention. For more details about TCS-Net, please refer to our paper.  
