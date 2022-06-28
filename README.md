@@ -1,9 +1,9 @@
 # TCS-Net
-This repository is the `pytorch` code for paper `"TCS-Net: Transformer-based Compressive Sensing"`.  
+This repository is the `pytorch` code for paper `"From Patch to Pixel: A Transformer-based Hierarchical Framework for Compressive Image Sensing"`.  
 ## 1. Introduction ##
 **1) Datasets**  
 
-Training set: [`BSDS500`](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html) and [`VOC2012`](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/), testing sets: [`McM18`](https://www4.comp.polyu.edu.hk/~cslzhang/CDM_Dataset.html), [`LIVE29`](http://live.ece.utexas.edu/research/Quality/), [`General100`](http://mmlab.ie.cuhk.edu.hk/projects/FSRCNN.html) and [`OST300`](http://mmlab.ie.cuhk.edu.hk/projects/SFTGAN/).  
+Training set: [`BSDS500`](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html), testing sets: [`McM18`](https://www4.comp.polyu.edu.hk/~cslzhang/CDM_Dataset.html), [`LIVE29`](http://live.ece.utexas.edu/research/Quality/), [`General100`](http://mmlab.ie.cuhk.edu.hk/projects/FSRCNN.html) and [`OST300`](http://mmlab.ie.cuhk.edu.hk/projects/SFTGAN/).  
 
 **2）Project structure**
 ```
@@ -11,7 +11,6 @@ Training set: [`BSDS500`](https://www2.eecs.berkeley.edu/Research/Projects/CS/vi
 |-dataset
 |    |-train  
 |        |-BSDS500 (.jpg)  
-|        |-VOC2012 (.jpg)  
 |    |-test  
 |        |-McM18  
 |        |-LIVE29  
@@ -53,6 +52,7 @@ Training set: [`BSDS500`](https://www2.eecs.berkeley.edu/Research/Projects/CS/vi
 | ![CSGAN](https://latex.codecogs.com/svg.image?\textbf{CSGAN}) | [Proc. Int. Conf. Mach. Learn.](http://proceedings.mlr.press/v97/wu19d.html) | 2019 |
 | ![CSNet (plus)](https://latex.codecogs.com/svg.image?\textbf{CSNet}^{&plus;}) | [Trans. Image Process.](https://ieeexplore.ieee.org/document/8765626/) | 2020 |
 | ![AMP-Net](https://latex.codecogs.com/svg.image?\textbf{AMP-Net}) | [Trans. Image Process.](https://ieeexplore.ieee.org/document/9298950) | 2021 |
+|CSformer| arXiv | 2022 |
 
 
 **4) Performance demonstrates**  
